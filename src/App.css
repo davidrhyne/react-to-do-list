@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: dodgerblue;
   color: white;
+  text-align: center;
+  font-size: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  margin: 0;
+  padding-bottom: .3em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 500px;
+  margin: 1em auto;
+  background-color: rgb(4, 78, 151);
+  padding: 1em;
+  border-radius: 10px ;
+}
+
+button, input {
+  padding: .5em 2em;
+  margin: .5em auto;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+}
+
+button {
+  margin: 0 1em 1.5em 0;
+
+}
+
+input[type="checkbox"] {
+  margin-right: 1em;
+  background-color: pink;
+  transform: scale(1.5);
+}
+
+.add {
+  color: green;
+
+}
+
+.clear {
+  color: red;
+}
+
+.unfinished {
+  margin-top: 1em;
+  font-size: 1.5rem;
 }
